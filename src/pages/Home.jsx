@@ -138,7 +138,7 @@ const bestSales = products.filter(item => item.category === "sofa").slice(0, 6);
         <img src={product.imgUrl} alt={product.productName} className="product-img" />
         <h3>{product.productName}</h3>
         <p className="price">₹{product.price}</p>
-        <p className="rating">⭐ {product.avgRating}</p>
+        <p className="rating">⭐⭐⭐⭐ {product.avgRating}</p>
         <button
           className="add-btn"
           onClick={() => {
