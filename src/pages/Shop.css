@@ -51,7 +51,7 @@
 }
 
 .product-card button {
-  background-color: #ff6600;
+  background-color: #41403f;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -62,7 +62,7 @@
 }
 
 .product-card button:hover {
-  background-color: #e65c00;
+  background-color: #2d2b29;
 }
 
 .shop-filters {
