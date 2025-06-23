@@ -125,7 +125,7 @@ function CartPage() {
                         }
                       />
                     </td>
-                    <td>₹{item.price * item.quantity}</td>
+                    <td>${item.price * item.quantity}</td>
                     <td>
                       <button onClick={() => removeFromCart(item.id)}>❌</button>
                     </td>
@@ -143,10 +143,10 @@ function CartPage() {
           </div>
           <hr />
           <p>Total Items: <span>{cartItems.length}</span></p>
-          <p>Total Price: ₹<span>{totalPrice.toFixed(2)}</span></p>
-          <p>Shipping: ₹<span>{shipping}</span></p>
+          <p>Total Price: $<span>{totalPrice.toFixed(2)}</span></p>
+          <p>Shipping: $<span>{shipping}</span></p>
           <hr />
-          <p><strong>Grand Total: ₹<span>{grandTotal.toFixed(2)}</span></strong></p>
+          <p><strong>Grand Total: $<span>{grandTotal.toFixed(2)}</span></strong></p>
 
           <button className="checkout-btn">Checkout</button>
         </div>
