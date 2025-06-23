@@ -4,12 +4,12 @@ import React from 'react';
 import { BrowserRouter as Router,Routes,Route }  from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Shop from './pages/Shop';
+import Shop from './pages/shop';
 import Cart from './pages/Cart';
 import User from './pages/User';
 import Footer from './components/Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // for carousel JS
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // 
 import { CartProvider } from './context/Cartcontext';
 
 import { ToastContainer } from "react-toastify";
