@@ -4,6 +4,8 @@ import './Shop.css';
 import { useCart } from '../context/Cartcontext';
 import { toast } from 'react-toastify';
 
+import sofaSlide from "../Images/hero-img.png";
+
 
 
 function Shop() {
@@ -26,6 +28,9 @@ function Shop() {
 
   return (
     <div className="shop-container">
+      <div className="shop-banner">
+  <img src={sofaSlide} alt="Shop Banner" className="banner-img" />
+</div>
       <h2>Shop Our Products</h2>
      {/* search bar */}
       <div className="shop-filters">
